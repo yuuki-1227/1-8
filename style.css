@@ -10,11 +10,12 @@ main {
 }
 
 .table {
-  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 .table-list {
   padding: 20px;
+  list-style: none;
 }
 
 .table-list:nth-child(odd) {
@@ -22,8 +23,6 @@ main {
 }
 
 .picture {
-  width: 960px;
-  padding: 50px 0;
   display: flex;
   flex-wrap: wrap;
 }
