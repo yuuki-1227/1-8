@@ -81,3 +81,6 @@ main {
 .picture-list:nth-child(9) {
   background-color: orange;
 }
+.picture-list-ex {
+  border: 10px solid #000;
+}
