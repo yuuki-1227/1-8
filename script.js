@@ -68,3 +68,12 @@ $(function(){
     $('ul').children().css({'color':'#ff0000'});
   });
 });
+
+$(function(){
+  $('#back a').on('click',function(event){
+    $('body,html').animate({
+      scrollTop:0
+    }, 800);
+    event.preventDefault();
+  });
+});
